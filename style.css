@@ -1,0 +1,81 @@
+html{
+    background: #222222;
+    font-family: sans-serif, serif;
+    box-sizing: border-box;
+    overflow-x: auto;
+    padding: 1vw;
+    font-weight: 500
+
+}
+.container {
+
+    opacity: 0.7;
+    width: 14em;
+    word-break: break-all;
+    padding: 2vw;
+    border: solid;
+    border-top: none;
+    border-right: none;
+    border-bottom:  none;
+    border-width: 1em;
+    border-color: darkorange;
+    border-radius: 1em;
+    background-color: beige;
+
+}
+.container h2{
+    line-height: 1em;
+    color: darkorange
+}
+
+#myInput {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: darkorange;
+    background: none
+}
+
+#myInput:focus {
+    outline-width: 0;
+    opacity: 1;
+    background: #ffffff;
+    border: solid;
+    color: darkorange;
+    border-width: medium;
+    border-color: darkorange;
+    border-radius: 1vh
+}
+
+li {
+    list-style: none;
+}
+li:before {
+    content: '\2610';
+    margin: -1em;
+    margin-right: 1em
+}
+
+.checked {
+    text-decoration: line-through;
+    font-weight: 600;
+
+}
+
+.checked:before {
+    text-decoration: line-through;
+    content: '\1f5f9';
+
+}
+
+button {
+    background: darkorange;
+    border: solid;
+    border-color: darkorange;
+    border-width: thick;
+    line-height: 1em;
+    border-radius: 1em
+}
+button:active {
+    color: white;
+}

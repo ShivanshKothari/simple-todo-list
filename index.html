@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./style.css" rel="stylesheet" />
+</head>
+
+<body>
+    
+    <div class="container">
+    <div id="myDIV" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <button onclick="newElement()">Add</button>
+    </div>
+
+    <ul id="myUL">
+        <li onclick="checkElement(event)">Hit the gym</li>
+        <li  onclick="checkElement(event)" class="checked">Pay bills</li>
+        <li onclick="checkElement(event)">Meet George</li>
+        <li onclick="checkElement(event)">Buy eggs</li>
+        <li onclick="checkElement(event)">Read a book</li>
+        <li onclick="checkElement(event)">Organize office</li>
+    </ul>
+    </div>
+    <script src="./script.js"></script>
+
+    
+
+</body>
+
+</html>
